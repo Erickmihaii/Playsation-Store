@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Stilizare pentru body */
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stilizare container pentru login */
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titlu */
+h2 {
+    font-size: 2rem;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+/* Mesaj de eroare */
+.error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+/* Stiluri pentru grupul de input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Etichete pentru input-uri */
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input-uri */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 5px;
+    background-color: #fafafa;
+}
+
+/* Hover efect pentru input-uri */
+input[type="text"]:hover, input[type="password"]:hover {
+    border-color: #2980b9;
+}
+
+/* Buton de login */
+.login-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover efect pentru butonul de login */
+.login-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Link către pagina de register */
+p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design pentru dispozitive mobile */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .login-btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
